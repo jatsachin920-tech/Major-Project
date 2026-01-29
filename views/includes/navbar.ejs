@@ -37,10 +37,11 @@
       </div>
       <div class="navbar-nav ms-auto" >
          <form class="d-flex" role="search">
-        <input class="form-control me-2 search-btn-input" type="search" placeholder="Search destinations" />
-        <button class="btn search-btn" type="submit">
+        <input class="form-control me-2 search-btn-input" type="search" placeholder="Search destinations" id="search-input"/>
+        <button class="btn search-btn" type="submit" id="search-btn">
           <i class="fa-solid fa-magnifying-glass"></i>Search</button>
       </form>
+      <div id="suggestions-box" class="list-group" style="position: absolute; top: 100%; width: 100%; z-index: 1000; display: none;"></div>
       </div>
       <div class="navbar-nav ms-auto">
         <a class="nav-link" href="/listings/new">Airbnb your home</a>
