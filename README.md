@@ -3,6 +3,7 @@ Wanderlust is a comprehensive web application designed for travelers and hosts. 
 through a robust review system.
 
 # 🛠️ Key Technical Features
+    <h1>Hello GitHub</h1>
 
 # 🔐 Authentication & Authorization
 Secure Login/Signup: Implemented using Passport.js with local strategies.
